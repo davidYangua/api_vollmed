@@ -26,7 +26,7 @@ La API también implementa seguridad robusta mediante **Spring Security**, utili
 La autenticación de usuarios y protección de endpoints se gestiona con:
 
 - ✅ **JWT (JSON Web Tokens):** Se genera un token al iniciar sesión, el cual debe ser enviado en cada petición protegida.
-- 🔒 **OAuth 2.0 (Soporte):** Preparado para integrarse con proveedores externos de autenticación.
+- 🔒 **OAuth :** Preparado para integrarse con proveedores externos de autenticación.
 - 🔐 **Filtros personalizados de seguridad:** Para interceptar y validar cada solicitud.
 
 ---
