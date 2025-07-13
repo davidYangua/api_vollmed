@@ -1,10 +1,9 @@
-package med.voll.api.Medico;
+package med.voll.api.domain.Medico;
 
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.*;
-import med.voll.api.Direccion.DatosDireccion;
-import med.voll.api.Direccion.Direccion;
+import med.voll.api.domain.Direccion.Direccion;
 
 @Getter
 @NoArgsConstructor
